@@ -28,7 +28,7 @@ done
 
 echo "[3/3] Preprocessing..."
 for N in $DATA_NAMES; do
-  python gen_vocab.py $DIR"/"$N --parallel_text --end_seq --end_encode --start_seq
-  python gen_vocab.py $DIR"/"$N --parallel_text --part_indices 0 --char_level --vocab_filename char_vocab.txt
+  python3 gen_vocab.py $DIR"/"$N --parallel_text --end_seq --end_encode --start_seq
+  python3 gen_vocab.py $DIR"/"$N --parallel_text --part_indices 0 --char_level --vocab_filename char_vocab.txt
 done
 

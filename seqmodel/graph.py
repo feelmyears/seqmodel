@@ -9,7 +9,6 @@ import tensorflow as tf
 
 from seqmodel import dstruct
 
-
 __all__ = ['_safe_div', 'tfph_collection', 'create_2d_tensor', 'matmul', 'create_cells',
            'create_rnn', 'select_rnn', 'select_nested_rnn', 'create_tdnn', 'maybe_scope',
            'create_highway_layer', 'create_gru_layer', 'get_seq_input_placeholders',

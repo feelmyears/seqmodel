@@ -1,0 +1,76 @@
+2018/01/22 00:46:21 [INFO ] Loading data...
+2018/01/22 00:50:40 [INFO ] Loading data...
+2018/01/22 00:50:44 [INFO ] Building graph...
+2018/01/22 00:50:47 [DEBUG] Trainable Variables:
+2018/01/22 00:50:47 [DEBUG] word2def_model/enc/embedding:0, (49017, 32)
+2018/01/22 00:50:47 [DEBUG] word2def_model/enc/rnn/basic_lstm_cell/kernel:0, (64, 128)
+2018/01/22 00:50:47 [DEBUG] word2def_model/enc/rnn/basic_lstm_cell/bias:0, (128,)
+2018/01/22 00:50:47 [DEBUG] word2def_model/wbdef/filter_2:0, (1, 2, 56, 20)
+2018/01/22 00:50:47 [DEBUG] word2def_model/wbdef/filter_3:0, (1, 3, 56, 30)
+2018/01/22 00:50:47 [DEBUG] word2def_model/wbdef/filter_4:0, (1, 4, 56, 40)
+2018/01/22 00:50:47 [DEBUG] word2def_model/wbdef/filter_5:0, (1, 5, 56, 40)
+2018/01/22 00:50:47 [DEBUG] word2def_model/dec/embedding:0, (27389, 32)
+2018/01/22 00:50:47 [DEBUG] word2def_model/wbdef/gate_zr_w:0, (194, 194)
+2018/01/22 00:50:47 [DEBUG] word2def_model/wbdef/gate_zr_b:0, (194,)
+2018/01/22 00:50:47 [DEBUG] word2def_model/wbdef/h_w:0, (194, 32)
+2018/01/22 00:50:47 [DEBUG] word2def_model/wbdef/h_b:0, (32,)
+2018/01/22 00:50:47 [DEBUG] word2def_model/dec/logit_w:0, (27389, 32)
+2018/01/22 00:50:47 [DEBUG] word2def_model/dec/logit_b:0, (27389,)
+2018/01/22 00:50:49 [INFO ] Training...
+2018/01/22 00:50:49 [INFO ] No experiment to resume.
+2018/01/22 00:50:49 [INFO ] ep: 0, lr: 0.001000
+2018/01/22 01:15:12 [INFO ] (T) eval_loss: 6.23965 (512.67955), tr_loss: 25.62322, wps: 609.8, 4740 steps in 1463.50s
+2018/01/22 01:16:07 [INFO ] (E) eval_loss: 5.84723 (346.27392), wps: 1953.3, 570 steps in 54.58s
+2018/01/22 01:16:11 [INFO ] ep: 1, lr: 0.001000
+2018/01/22 01:39:40 [INFO ] (T) eval_loss: 5.45251 (233.34220), tr_loss: 22.37881, wps: 633.4, 4740 steps in 1409.09s
+2018/01/22 01:40:26 [INFO ] (E) eval_loss: 5.55898 (259.55912), wps: 2295.4, 570 steps in 46.45s
+2018/01/22 01:40:31 [INFO ] ep: 2, lr: 0.001000
+2018/01/22 02:02:24 [INFO ] (T) eval_loss: 5.03370 (153.49971), tr_loss: 20.64573, wps: 679.4, 4740 steps in 1313.61s
+2018/01/22 02:03:17 [INFO ] (E) eval_loss: 5.44288 (231.10616), wps: 2019.3, 570 steps in 52.80s
+2018/01/22 02:03:21 [INFO ] ep: 3, lr: 0.001000
+2018/01/22 02:26:04 [INFO ] (T) eval_loss: 4.72291 (112.49466), tr_loss: 19.35722, wps: 655.2, 4740 steps in 1362.29s
+2018/01/22 02:26:54 [INFO ] (E) eval_loss: 5.40503 (222.52202), wps: 2130.4, 570 steps in 50.04s
+2018/01/22 02:26:58 [INFO ] ep: 4, lr: 0.001000
+2018/01/22 02:49:44 [INFO ] (T) eval_loss: 4.46290 (86.73839), tr_loss: 18.28620, wps: 653.2, 4740 steps in 1366.37s
+2018/01/22 02:50:36 [INFO ] (E) eval_loss: 5.41369 (224.45876), wps: 2063.3, 570 steps in 51.67s
+2018/01/22 02:50:38 [INFO ] ep: 5, lr: 0.001000
+2018/01/22 03:12:54 [INFO ] (T) eval_loss: 4.24373 (69.66690), tr_loss: 17.37256, wps: 668.2, 4740 steps in 1335.66s
+2018/01/22 03:13:43 [INFO ] (E) eval_loss: 5.41911 (225.67908), wps: 2168.1, 570 steps in 49.17s
+2018/01/22 03:13:45 [INFO ] ep: 6, lr: 0.001000
+2018/01/22 03:36:13 [INFO ] (T) eval_loss: 4.05258 (57.54576), tr_loss: 16.57317, wps: 662.2, 4740 steps in 1347.85s
+2018/01/22 03:37:07 [INFO ] (E) eval_loss: 5.48015 (239.88326), wps: 1979.3, 570 steps in 53.86s
+2018/01/22 03:37:09 [INFO ] ep: 7, lr: 0.001000
+2018/01/22 03:59:35 [INFO ] (T) eval_loss: 3.87829 (48.34161), tr_loss: 15.85911, wps: 662.9, 4740 steps in 1346.38s
+2018/01/22 04:00:28 [INFO ] (E) eval_loss: 5.52640 (251.23897), wps: 2026.4, 570 steps in 52.61s
+2018/01/22 04:00:30 [INFO ] ep: 8, lr: 0.001000
+2018/01/22 04:22:37 [INFO ] (T) eval_loss: 3.72549 (41.49173), tr_loss: 15.21766, wps: 672.9, 4740 steps in 1326.36s
+2018/01/22 04:23:25 [INFO ] (E) eval_loss: 5.58464 (266.30345), wps: 2208.3, 570 steps in 48.28s
+2018/01/22 04:23:27 [INFO ] ep: 9, lr: 0.001000
+2018/01/22 04:46:10 [INFO ] (T) eval_loss: 3.58453 (36.03631), tr_loss: 14.63577, wps: 654.5, 4740 steps in 1363.56s
+2018/01/22 04:47:03 [INFO ] (E) eval_loss: 5.62595 (277.53585), wps: 2035.2, 570 steps in 52.38s
+2018/01/22 04:47:05 [INFO ] Maximum epoch reach at 10
+2018/01/22 04:47:05 [INFO ] Loading parameters from best checkpoint...
+2018/01/22 04:47:05 [INFO ] Evaluating...
+2018/01/22 04:47:56 [INFO ] (E) eval_loss: 5.34183 (208.89427), wps: 2105.5, 570 steps in 50.88s
+2018/01/22 04:47:56 [INFO ] Total time: 3h 57m 16.25s
+2018/01/22 09:35:30 [INFO ] Loading data...
+2018/01/22 09:35:35 [INFO ] Building graph...
+2018/01/22 09:35:36 [DEBUG] Trainable Variables:
+2018/01/22 09:35:36 [DEBUG] word2def_model/enc/embedding:0, (49017, 32)
+2018/01/22 09:35:36 [DEBUG] word2def_model/enc/rnn/basic_lstm_cell/kernel:0, (64, 128)
+2018/01/22 09:35:36 [DEBUG] word2def_model/enc/rnn/basic_lstm_cell/bias:0, (128,)
+2018/01/22 09:35:36 [DEBUG] word2def_model/wbdef/filter_2:0, (1, 2, 56, 20)
+2018/01/22 09:35:36 [DEBUG] word2def_model/wbdef/filter_3:0, (1, 3, 56, 30)
+2018/01/22 09:35:36 [DEBUG] word2def_model/wbdef/filter_4:0, (1, 4, 56, 40)
+2018/01/22 09:35:36 [DEBUG] word2def_model/wbdef/filter_5:0, (1, 5, 56, 40)
+2018/01/22 09:35:36 [DEBUG] word2def_model/dec/embedding:0, (27389, 32)
+2018/01/22 09:35:36 [DEBUG] word2def_model/wbdef/gate_zr_w:0, (194, 194)
+2018/01/22 09:35:36 [DEBUG] word2def_model/wbdef/gate_zr_b:0, (194,)
+2018/01/22 09:35:36 [DEBUG] word2def_model/wbdef/h_w:0, (194, 32)
+2018/01/22 09:35:36 [DEBUG] word2def_model/wbdef/h_b:0, (32,)
+2018/01/22 09:35:36 [DEBUG] word2def_model/dec/logit_w:0, (27389, 32)
+2018/01/22 09:35:36 [DEBUG] word2def_model/dec/logit_b:0, (27389,)
+2018/01/22 09:35:36 [INFO ] Loading parameters from best checkpoint...
+2018/01/22 09:35:37 [INFO ] Evaluating...
+2018/01/22 09:36:25 [INFO ] (E) eval_loss: 5.34192 (208.91421), wps: 2190.2, 570 steps in 48.92s
+2018/01/22 09:36:25 [INFO ] Total time: 0h 0m 55.17s

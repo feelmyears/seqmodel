@@ -1,0 +1,11 @@
+{
+  "best_checkpoint_epoch": 3,
+  "best_epoch": 3,
+  "best_eval": 5.405026073018028,
+  "cur_epoch": 10,
+  "cur_eval": 5.625950111106776,
+  "imp_wait": 0,
+  "last_imp_epoch": -1,
+  "last_imp_eval": Infinity,
+  "learning_rate": 0.001
+}
